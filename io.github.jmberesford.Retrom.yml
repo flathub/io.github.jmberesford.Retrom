@@ -35,38 +35,20 @@ modules:
     sources:
       - type: git
         url: https://github.com/JMBeresford/retrom
-        tag: "v0.7.51"
-        commit: "cb959286d27c99ed675d72db0129b10db0a39420"
+        tag: "v0.7.52"
+        commit: "b9127cf6b386aa7e0a299d33dfb0bc448220426a"
 
       # Static web assets
       - type: archive
-        url: https://github.com/JMBeresford/retrom/releases/download/v0.7.51/desktop-frontend-dist_ubuntu-24.04.tar.gz
-        sha256: "1ce3862ee928933e1633b25989ac0eb658abb19e77059d08755a41619116390a"
+        url: https://github.com/JMBeresford/retrom/releases/download/v0.7.52/desktop-frontend-dist.tar.gz
+        sha256: "15e4ee43ce05f0e22c540e21f370c8d60a297c8a1dc8d1896966c754b599d6ce"
         strip-components: 0
-        only-arches:
-          - x86_64
-
-      - type: archive
-        url: https://github.com/JMBeresford/retrom/releases/download/v0.7.51/desktop-frontend-dist_ubuntu-24.04-arm.tar.gz
-        sha256: "f259959ca05a3c79e0df4f0c2169016bb3abcde07e4be9757654325124850ae7"
-        strip-components: 0
-        only-arches:
-          - aarch64
 
       # Vendored cargo deps
       - type: archive
-        url: https://github.com/JMBeresford/retrom/releases/download/v0.7.51/cargo-vendor_ubuntu-24.04.tar.gz
-        sha256: "e168116e1cfa791f86ac099ee07f33f349686af1c04e5dcdb7d860cdfd578bad"
+        url: https://github.com/JMBeresford/retrom/releases/download/v0.7.52/cargo-deps.tar.gz
+        sha256: "714ea560a760a27a8ac2a28fdf5acdee1cbd26d855e39f6c1450b6a648a5eec6"
         strip-components: 0
-        only-arches:
-          - x86_64
-
-      - type: archive
-        url: https://github.com/JMBeresford/retrom/releases/download/v0.7.51/cargo-vendor_ubuntu-24.04-arm.tar.gz
-        sha256: "71dbc5f088f41ad07e93cd7695942c4c9e9dcb84f7bb276c7737d7b9b8a43a44"
-        strip-components: 0
-        only-arches:
-          - aarch64
 
     build-options:
       env:

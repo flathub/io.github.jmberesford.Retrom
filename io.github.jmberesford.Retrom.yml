@@ -36,7 +36,7 @@ modules:
       - type: git
         url: https://github.com/JMBeresford/retrom
         tag: "v0.7.53"
-        commit: "e8018df99a328357e72ae22370e1e1c8418e67b9"
+        commit: "60fa0f336aceff5fea8a7639696cfd694499332e"
 
       # Static web assets
       - type: archive

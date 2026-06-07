@@ -35,19 +35,19 @@ modules:
     sources:
       - type: git
         url: https://github.com/JMBeresford/retrom
-        tag: "v0.8.2"
-        commit: "d9b89cc94ce25515a99fe28aa2073161b6adf219"
+        tag: "v0.8.3"
+        commit: "ebc63c60b012f7e3adf640f80fa905f46ca964f7"
 
       # Static web assets
       - type: archive
-        url: https://github.com/JMBeresford/retrom/releases/download/v0.8.2/desktop-frontend-dist.tar.gz
-        sha256: "fe2b74dcd4138ae18463bb505dad9bd2fde18ef1b9b06af7467b8a2e60c02f64"
+        url: https://github.com/JMBeresford/retrom/releases/download/v0.8.3/desktop-frontend-dist.tar.gz
+        sha256: "de9e4a9df26fb378e5810fff6b9d0bda2eed5cb94cb27ab27b9aedd51d394084"
         strip-components: 0
 
       # Vendored cargo deps
       - type: archive
-        url: https://github.com/JMBeresford/retrom/releases/download/v0.8.2/cargo-deps.tar.gz
-        sha256: "5f2c918fcb471ae2b9e7ac3352b281d67307bbb91054e3d4c7d7fb8b332f0273"
+        url: https://github.com/JMBeresford/retrom/releases/download/v0.8.3/cargo-deps.tar.gz
+        sha256: "c3d951fc0822efd303a23fe16e14b8c039b9b5d422f186a8133a979eb7816bbf"
         strip-components: 0
 
     build-options:
